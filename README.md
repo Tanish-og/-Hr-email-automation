@@ -232,6 +232,84 @@ Check `email_log.txt` for detailed error messages and debugging information.
 - **Personalization Engine**: Use company data for highly personalized emails
 - **Response Prediction**: AI-powered prediction of response likelihood
 
+## 🚀 Deployment
+
+### Streamlit Cloud Deployment (Recommended)
+
+1. **Create GitHub Repository:**
+   ```bash
+   # If you haven't already connected to GitHub:
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git push -u origin master
+   ```
+
+2. **Deploy on Streamlit Cloud:**
+   - Go to [share.streamlit.io](https://share.streamlit.io)
+   - Connect your GitHub account
+   - Select your repository
+   - Set main file path to: `app.py`
+   - Add secrets in Streamlit Cloud:
+     ```
+     SENDER_EMAIL = "your_email@gmail.com"
+     SENDER_PASSWORD = "your_gmail_app_password"
+     GOOGLE_API_KEY = "your_gemini_api_key"
+     RESUME_PATH = "Tanish_resume_updated (1).pdf"
+     ```
+
+3. **Access Your Deployed App:**
+   - Streamlit Cloud will provide a public URL
+   - Your app will be live 24/7
+
+### Local Deployment
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run locally
+streamlit run app.py
+```
+
+## 🔧 Configuration for Deployment
+
+### Required Environment Variables:
+```env
+# Email Configuration
+SENDER_EMAIL=your_email@gmail.com
+SENDER_PASSWORD=your_gmail_app_password
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+
+# API Keys
+GOOGLE_API_KEY=your_gemini_api_key
+
+# Resume Path
+RESUME_PATH=Tanish_resume_updated (1).pdf
+```
+
+### Gmail App Password Setup:
+1. Enable 2-Factor Authentication on Gmail
+2. Generate App Password: https://myaccount.google.com/apppasswords
+3. Use the 16-character password (without spaces)
+
+## 📊 Features Overview
+
+### ✅ Core Features:
+- **Professional Email Templates** with dynamic job role replacement
+- **Resume Auto-Attachment** from PDF file
+- **Job Role Selection** with 25+ professional positions
+- **One-Click Email Sending** with Gmail integration
+- **Re-sending Capability** for follow-ups
+- **Past Emails Tracking** with detailed history
+- **Auto-Resume Parsing** for skills and projects extraction
+
+### ✅ Advanced Features:
+- **SQLite Database** for email management
+- **Comprehensive Logging** for all activities
+- **Error Handling** with user-friendly messages
+- **Responsive UI** with modern design
+- **Mobile-Friendly** interface
+
 ## 🤝 Contributing
 
 This is a personal project for job application automation. Feel free to fork and modify for your own use.

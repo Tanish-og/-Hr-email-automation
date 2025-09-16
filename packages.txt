@@ -1,0 +1,8 @@
+python-dotenv
+requests
+beautifulsoup4
+google-generativeai
+openai
+selenium
+webdriver-manager
+PyPDF2
