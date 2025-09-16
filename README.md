@@ -2,6 +2,8 @@
 
 An intelligent agentic AI system for automated job application emails. This system collects HR email addresses from various sources and sends personalized, formal job application emails with resume attachments.
 
+steamlit deployed link --> https://dovrzlbxyaehjccpqp6nuk.streamlit.app/
+
 ## 🌟 Features
 
 ### Core Functionality
@@ -322,3 +324,4 @@ This project is for personal use only. Please ensure compliance with all applica
 ---
 
 **⚠️ Disclaimer**: Use this tool responsibly. Automated email sending should comply with anti-spam laws and website terms of service. The author is not responsible for misuse of this tool.
+
