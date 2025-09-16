@@ -1,0 +1,12 @@
+# HR Email List for Automated Job Applications
+# Add one email per line
+# Format: email@company.com
+
+# Example entries (replace with real HR emails):
+# hr@company1.com
+# careers@company2.com
+# jobs@company3.com
+# recruitment@company4.com
+
+# Add your HR emails below:
+contact@pixeltalent.in

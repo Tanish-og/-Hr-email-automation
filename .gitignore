@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Logs
+email_log.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
