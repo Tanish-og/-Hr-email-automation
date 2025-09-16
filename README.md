@@ -257,9 +257,9 @@ Check `email_log.txt` for detailed error messages and debugging information.
      ```
 
 3. **Access Your Deployed App:**
-   - **Live App URL:** [Your Streamlit Cloud URL will appear here after deployment]
+   - **🌐 Live App URL:** https://dovrzlbxyaehjccpqp6nuk.streamlit.app/
    - Your app will be live 24/7
-   - Example: `https://hr-email-automation-username.streamlit.app`
+   - Access from any device, anywhere in the world!
 
 ### Local Deployment
 
