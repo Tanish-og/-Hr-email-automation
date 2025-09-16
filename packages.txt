@@ -1,9 +1,0 @@
-streamlit
-PyPDF2
-google-generativeai
-python-dotenv
-requests
-beautifulsoup4
-openai
-selenium
-webdriver-manager
