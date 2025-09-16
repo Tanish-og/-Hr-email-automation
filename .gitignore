@@ -3,12 +3,20 @@
 
 # Logs
 email_log.txt
+*.log
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Database
+emails.db
+*.db
+
+# Resume files (for privacy)
+*.pdf
 
 # OS
 .DS_Store
@@ -17,3 +25,13 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Deployment
+.vercel/
+.netlify/
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
