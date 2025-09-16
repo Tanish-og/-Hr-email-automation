@@ -1,9 +1,19 @@
-python-dotenv
-requests
-beautifulsoup4
-google-generativeai
-streamlit
-openai
-selenium
-webdriver-manager
-PyPDF2
+# Requirements for Streamlit Cloud deployment
+# This file ensures proper pip installation
+
+# Core Streamlit and AI
+streamlit>=1.28.0
+google-generativeai>=0.5.0
+openai>=1.0.0
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Web scraping and requests
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
