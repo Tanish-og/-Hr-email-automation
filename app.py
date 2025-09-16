@@ -204,14 +204,14 @@ def generate_personalized_email(company_name, job_role, user_name, user_email, p
         1. Include a professional subject line
         2. Start with applicant's introduction and current background
         3. Highlight specific skills and technologies from the resume
-        4. Mention relevant projects and achievements
+        4. Mention relevant projects and achievements in detail
         5. Express interest in the specific job role
         6. Connect applicant's experience to job requirements
-        7. Include contact information (name, email, phone only)
+        7. Include contact information (name, email, phone only - NO LinkedIn)
         8. Mention that resume is attached
         9. End with a call to action
 
-        Focus on technical skills, projects, and achievements from the resume. Make it specific and compelling. Keep it concise (250-350 words).
+        Focus heavily on technical skills, projects, and achievements from the resume. Make it specific and compelling. Keep it concise (250-350 words).
         """
 
         response = model.generate_content(prompt)
@@ -246,7 +246,6 @@ Best regards,
 {user_name}
 Email: {user_email}
 Phone: {phone}
-LinkedIn: {linkedin}
 """
     return subject, body
 
